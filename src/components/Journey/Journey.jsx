@@ -1,4 +1,6 @@
 import "./journey.css";
+import Left from "./Left";
+import Right from "./Right";
 
 function Journey() {
   const lists = [
@@ -39,90 +41,42 @@ function Journey() {
             );
           })}
         </div>
-
         <div className="journey__sections">
           <div className="journey__content">
-            <div className="journey__data">
-              <div data-aos="fade-up" data-aos-delay="300">
-                <h3 className="journey__title">Vocational High School</h3>
-                <span className="journey__subtitle">
-                  Computer and Network Engineering
-                </span>
-                <div className="journey__calendar">
-                  <i className="bx bxs-calendar"></i>2018 - 2021
-                </div>
-              </div>
-              <div>
-                <span className="journey__rounder"></span>
-                <span className="journey__line"></span>
-              </div>
-            </div>
+            <Left
+              title={"Vocational High School"}
+              sub={"Computer and Network Engineering"}
+              date={"2018 - 2021"}
+              delay={300}
+            />
 
-            <div className="journey__data">
-              <div></div>
-              <div>
-                <span className="journey__rounder"></span>
-                <span className="journey__line"></span>
-              </div>
-              <div data-aos="fade-up" data-aos-delay="350">
-                <h3 className="journey__title">
-                  Putra Jaya Computer (Internship)
-                </h3>
-                <span className="journey__subtitle">IT Support</span>
-                <div className="journey__calendar">
-                  <i className="bx bxs-calendar"></i>July - Sept 2019
-                </div>
-              </div>
-            </div>
+            <Right
+              title={"Putra Jaya Computer (Internship)"}
+              sub={"IT Support"}
+              date={"July - Sept 2019"}
+              delay={350}
+            />
 
-            <div className="journey__data">
-              <div data-aos="fade-up" data-aos-delay="400">
-                <h3 className="journey__title">Student Skills Competition</h3>
-                <span className="journey__subtitle">
-                  IT Network System Administration
-                </span>
-                <div className="journey__calendar">
-                  <i className="bx bxs-calendar"></i>Maret, 2021 - East Java
-                </div>
-              </div>
-              <div>
-                <span className="journey__rounder"></span>
-                <span className="journey__line"></span>
-              </div>
-            </div>
+            <Left
+              title={"Student Skills Competition"}
+              sub={"IT Network System Administration"}
+              date={"Maret, 2021 - East Java"}
+              delay={400}
+            />
 
-            <div className="journey__data">
-              <div></div>
-              <div>
-                <span className="journey__rounder"></span>
-                <span className="journey__line"></span>
-              </div>
-              <div data-aos="fade-up" data-aos-delay="450">
-                <h3 className="journey__title">
-                  Politeknik Elektronika Negeri Surabaya (Internship)
-                </h3>
-                <span className="journey__subtitle">Network Engineer</span>
-                <div className="journey__calendar">
-                  <i className="bx bxs-calendar"></i>Jan - March 2020
-                </div>
-              </div>
-            </div>
+            <Right
+              title={"Politeknik Elektronika Negeri Surabaya (Internship)"}
+              sub={"Network Engineer"}
+              date={"Jan - March 2020"}
+              delay={450}
+            />
 
-            <div className="journey__data">
-              <div data-aos="fade-up" data-aos-delay="500">
-                <h3 className="journey__title">Nusantara Kediri University</h3>
-                <span className="journey__subtitle">
-                  Informatics Engineering
-                </span>
-                <div className="journey__calendar">
-                  <i className="bx bxs-calendar"></i>2021 - present
-                </div>
-              </div>
-              <div>
-                <span className="journey__rounder"></span>
-                <span className="journey__line"></span>
-              </div>
-            </div>
+            <Left
+              title={"Nusantara PGRI Kediri University"}
+              sub={"Informatics Engineering"}
+              date={"2021 - Present"}
+              delay={500}
+            />
           </div>
         </div>
       </div>

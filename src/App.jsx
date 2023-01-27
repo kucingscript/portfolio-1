@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 1500);
   }, []);
 
   useEffect(() => {
@@ -29,35 +29,23 @@ function App() {
   }, []);
 
   return (
-    // <>
-    //   {loading === false ? (
-    //     <div>
-    //       <Header />
-    //       <main>
-    //         <Home />
-    //         <About />
-    //         <Skills />
-    //         <Services />
-    //          <Journey />
-    // <Contact />
-    //       </main>
-    //     </div>
-    //   ) : (
-    //     <Loader />
-    //   )}
-    // </>
-
-    <div>
-      <Header />
-      <main>
-        <Home />
-        <About />
-        <Skills />
-        <Services />
-        <Journey />
-        <Contact />
-      </main>
-    </div>
+    <>
+      {loading === false ? (
+        <div>
+          <Header />
+          <main>
+            <Home />
+            <About />
+            <Skills />
+            <Services />
+            <Journey />
+            <Contact />
+          </main>
+        </div>
+      ) : (
+        <Loader />
+      )}
+    </>
   );
 }
 

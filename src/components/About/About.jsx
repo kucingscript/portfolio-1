@@ -1,5 +1,5 @@
 import IMG from "/profile.webp";
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/Ar Rasyid Sarifullah__resume.pdf";
 import Info from "./Info";
 import "./about.css";
 

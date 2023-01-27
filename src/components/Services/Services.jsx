@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { servicesContent } from "./data";
 import "./services.css";
 
 function Services() {
@@ -6,41 +7,6 @@ function Services() {
   const modalTab = (index) => {
     setShowModal(index);
   };
-
-  const servicesContent = [
-    {
-      id: 1,
-      delay: 400,
-      t1: "Responsive",
-      t2: "Design",
-      subt: "Responsive design allows your website content to flow freely across all screen resolutions and sizes, and renders it to look great on all devices.",
-      icon: "bx bx-slideshow services__icon",
-    },
-    {
-      id: 2,
-      delay: 400,
-      t1: "Clean",
-      t2: "Code",
-      subt: "The way of writing code such that the code is easily readable, testable, and less prone to errors.",
-      icon: "bx bx-code-alt services__icon",
-    },
-    {
-      id: 3,
-      delay: 500,
-      t1: "UX",
-      t2: "Design",
-      subt: "UX design focuses on building products that someone can easily use and enjoy using.",
-      icon: "bx bx-user-pin services__icon",
-    },
-  ];
-
-  const lists = [
-    { text: "I develop the user interface" },
-    { text: "Web page development" },
-    { text: "I create UX element interaction" },
-    { text: "I position your company brand" },
-    { text: "Design and mockups of products companies" },
-  ];
 
   return (
     <section className="section services" name="Services">
@@ -94,14 +60,20 @@ function Services() {
                   <p className="services__modal-description">{item.subt}</p>
 
                   <ul className="services__modal-services grid">
-                    {lists.map((list, index) => {
-                      return (
-                        <li className="services__modal-service" key={index}>
-                          <i className="bx bx-check-circle services__modal-icon"></i>
-                          <p className="services__modal-info">{list.text}</p>
-                        </li>
-                      );
-                    })}
+                    <li className="services__modal-service">
+                      <i className="bx bx-check-circle services__modal-icon"></i>
+                      <p className="services__modal-info">{item.modal1}</p>
+                    </li>
+
+                    <li className="services__modal-service">
+                      <i className="bx bx-check-circle services__modal-icon"></i>
+                      <p className="services__modal-info">{item.modal2}</p>
+                    </li>
+
+                    <li className="services__modal-service">
+                      <i className="bx bx-check-circle services__modal-icon"></i>
+                      <p className="services__modal-info">{item.modal3}</p>
+                    </li>
                   </ul>
                 </div>
               </div>
