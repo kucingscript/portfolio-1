@@ -64,7 +64,7 @@ function Data() {
       </p>
 
       <a
-        href="#"
+        href="mailto:arrasyidsarifullah@gmail.com"
         className="button button--flex"
         data-aos="fade-up"
         data-aos-delay="600"

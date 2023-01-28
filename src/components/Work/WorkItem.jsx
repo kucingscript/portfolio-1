@@ -7,6 +7,10 @@ function WorkItem({ item }) {
       data-aos-delay="300"
     >
       <img src={item.image} alt={item.title} className="work__img" />
+      <div className="img__overlay">
+        <div className="overlay__text">{item.text}</div>
+      </div>
+
       <h3 className="work__title">{item.title}</h3>
       <a href={item.link} className="work__button" target={"_blank"}>
         Demo <i className="bx bxs-chevron-right work__button-icon"></i>
