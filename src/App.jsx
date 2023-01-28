@@ -8,6 +8,7 @@ import {
   Services,
   Journey,
   Contact,
+  Work,
 } from "./components/";
 
 import AOS from "aos";
@@ -39,6 +40,7 @@ function App() {
             <Skills />
             <Services />
             <Journey />
+            <Work />
             <Contact />
           </main>
         </div>

@@ -2,7 +2,7 @@ function ContactSocial() {
   const socialMedia = [
     {
       title: "Facebook",
-      subtitle: "Rasyidz.ar",
+      subtitle: "rasyidz.ar",
       href: "https://www.facebook.com/RasyidzScreamo.221016",
       icon: "bx bxl-facebook-square contact__card-icon",
       delay: 300,
@@ -16,7 +16,7 @@ function ContactSocial() {
     },
     {
       title: "Instagram",
-      subtitle: "Kucingscript",
+      subtitle: "kucingscript",
       href: "https://www.instagram.com/kucingscript/",
       icon: "bx bxl-instagram-alt contact__card-icon",
       delay: 400,
