@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import "./header.css";
 
@@ -17,20 +17,11 @@ function Header() {
   return (
     <header>
       <nav className="container">
-        <Link
-          to="Home"
-          className="nav__logo"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        >
+        <Link to="Home" className="nav__logo">
           KucingScript
         </Link>
 
-        <div
-          className={toggle ? "nav__menu show__menu" : "nav__menu"}
-          data-aos="fade-up"
-          data-aos-delay="300"
-        >
+        <div className={toggle ? "nav__menu show__menu" : "nav__menu"}>
           <ul className="nav__list grid">
             {lists.map((item, index) => {
               return (

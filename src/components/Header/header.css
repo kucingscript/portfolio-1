@@ -116,6 +116,10 @@ ul.nav__list {
   .nav__toggle {
     display: block;
   }
+
+  [data-aos-delay] {
+    transition-delay: 0s !important;
+  }
 }
 
 
