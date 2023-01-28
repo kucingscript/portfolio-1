@@ -33,8 +33,6 @@ function Works() {
               onClick={(e) => handleClick(e, index)}
               className={`${active === index ? "active__work" : ""} work__item`}
               key={index}
-              data-aos="fade-up"
-              data-aos-delay="400"
             >
               {item.name}
             </span>
