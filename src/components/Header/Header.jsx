@@ -30,7 +30,7 @@ function Header() {
           <ul
             className="nav__list grid"
             data-aos="fade-up"
-            data-aos-delay="350"
+            data-aos-delay="200"
           >
             {lists.map((item, index) => {
               return (
