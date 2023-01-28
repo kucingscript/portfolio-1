@@ -26,12 +26,12 @@ function Header() {
           KucingScript
         </Link>
 
-        <div className={toggle ? "nav__menu show__menu" : "nav__menu"}>
-          <ul
-            className="nav__list grid"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+        <div
+          className={toggle ? "nav__menu show__menu" : "nav__menu"}
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          <ul className="nav__list grid">
             {lists.map((item, index) => {
               return (
                 <Link

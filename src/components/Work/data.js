@@ -51,8 +51,8 @@ export const projectsData = [
 ];
 
 export const projectsNav = [
-  { name: "all", delay: 350 },
-  { name: "frontend", delay: 400 },
-  { name: "backend", delay: 450 },
-  { name: "api", delay: 500 },
+  { name: "all" },
+  { name: "frontend" },
+  { name: "backend" },
+  { name: "api" },
 ];
