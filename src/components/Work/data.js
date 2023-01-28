@@ -3,7 +3,7 @@ import Works2 from "../../assets/ingformatika.webp";
 import Works3 from "../../assets/nusantara__historia.webp";
 import Works4 from "../../assets/pokedex.webp";
 import Works5 from "../../assets/the__weirdos.webp";
-import Works6 from "../../assets/anime__quotes.webp";
+import Works6 from "../../assets/cat__facts.webp";
 
 export const projectsData = [
   {
@@ -39,14 +39,14 @@ export const projectsData = [
     image: Works4,
     title: "Pokedex",
     category: "api",
-    link: "https://rasyidzkun.github.io/cat-facts/",
+    link: "https://rasyidzkun.github.io/pokedex/",
   },
   {
     id: 6,
     image: Works6,
-    title: "Anime Quotes",
+    title: "Daily Cat Facts",
     category: "api",
-    link: "https://rasyidzkun.github.io/anime-quotes/",
+    link: "https://rasyidzkun.github.io/cat-facts/",
   },
 ];
 
