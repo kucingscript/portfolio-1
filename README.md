@@ -1,5 +1,5 @@
-# React Portfolio
+# Portfolio#1
 
 ```
-Site on progress
+Personal portfolio build with React JS
 ```
