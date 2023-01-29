@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Title from "../Title/Title";
 import { servicesContent } from "./data";
 import "./services.css";
 
@@ -10,16 +11,7 @@ function Services() {
 
   return (
     <section className="section services" name="Services">
-      <h2 className="section__title" data-aos="fade-up" data-aos-delay="200">
-        Services
-      </h2>
-      <span
-        className="section__subtitle"
-        data-aos="fade-up"
-        data-aos-delay="300"
-      >
-        What I Offer
-      </span>
+      <Title title={"Services"} sub={"What I Offer"} />
 
       <div className="services__container container grid">
         {servicesContent.map((item, index) => {
@@ -41,6 +33,7 @@ function Services() {
                 <i className="bx bxs-chevron-right services__button-icon"></i>
               </span>
 
+              {/* Modal */}
               <div
                 className={
                   showModal === item.id

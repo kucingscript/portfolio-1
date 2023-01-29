@@ -9,6 +9,7 @@ import {
   Journey,
   Contact,
   Work,
+  Footer,
 } from "./components/";
 
 import AOS from "aos";
@@ -25,7 +26,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      once: true,
+      once: false,
     });
   }, []);
 
@@ -42,6 +43,7 @@ function App() {
             <Journey />
             <Work />
             <Contact />
+            <Footer />
           </main>
         </div>
       ) : (

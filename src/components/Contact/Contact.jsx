@@ -1,20 +1,12 @@
-import "./contact.css";
+import Title from "../Title/Title";
 import ContactForm from "./ContactForm";
 import ContactSocial from "./ContactSocial";
+import "./contact.css";
 
 function Contact() {
   return (
     <section className="section contact" name="Contact">
-      <h2 className="section__title" data-aos="fade-up" data-aos-delay="200">
-        Get in touch
-      </h2>
-      <span
-        className="section__subtitle"
-        data-aos="fade-up"
-        data-aos-delay="300"
-      >
-        Contact Me
-      </span>
+      <Title title={"Get in touch"} sub={"Contact Me"} />
 
       <div className="contact__container container grid">
         <ContactSocial />

@@ -1,31 +1,12 @@
-function Backend() {
-  const skills = [
-    [
-      { name: "Node", level: "Beginner", delay: 500, icon: "bx bxl-nodejs" },
-      {
-        name: "Express",
-        level: "Beginner",
-        delay: 600,
-        icon: "bx bxs-file-js",
-      },
-    ],
-    [
-      { name: "MySQL", level: "Intermediate", delay: 550, icon: "bx bxs-data" },
-      {
-        name: "MongoDB",
-        level: "Beginner",
-        delay: 650,
-        icon: "bx bxl-mongodb",
-      },
-    ],
-  ];
+import { beSkills } from "./data";
 
+function Backend() {
   return (
     <div className="skills__content" data-aos="fade-up" data-aos-delay="500">
       <h3 className="skills__title">Backend Stack</h3>
       <div className="skills__box">
         <div className="skills__group">
-          {skills[0].map((item, index) => {
+          {beSkills[0].map((item, index) => {
             return (
               <div
                 className="skills__data"
@@ -45,7 +26,7 @@ function Backend() {
         </div>
 
         <div className="skills__group">
-          {skills[1].map((item, index) => {
+          {beSkills[1].map((item, index) => {
             return (
               <div
                 className="skills__data"
