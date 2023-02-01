@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import { lists, links } from "./data";
+import { footerLists, footerLinks } from "../../constants";
 import "./footer.css";
 
 function Footer() {
@@ -9,17 +9,17 @@ function Footer() {
         <h2 className="footer__title">KucingScript</h2>
 
         <ul className="footer__list">
-          {lists.map((list, index) => {
+          {footerLists.map((item, index) => {
             return (
               <li key={index}>
                 <Link
-                  to={list.text}
+                  to={item.text}
                   duration={500}
                   spy={true}
                   smooth={true}
                   className="footer__link"
                 >
-                  {list.text}
+                  {item.text}
                 </Link>
               </li>
             );
@@ -27,7 +27,7 @@ function Footer() {
         </ul>
 
         <div className="footer__social">
-          {links.map((item, index) => {
+          {footerLinks.map((item, index) => {
             return (
               <a
                 href={item.href}

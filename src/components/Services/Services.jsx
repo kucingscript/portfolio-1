@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Title from "../Title/Title";
-import { servicesContent } from "./data";
+import { servicesContent } from "../../constants";
 import "./services.css";
 
 function Services() {

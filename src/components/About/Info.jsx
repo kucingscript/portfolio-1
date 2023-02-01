@@ -1,9 +1,9 @@
-import { lists } from "./data";
+import { aboutLists } from "../../constants";
 
 function Info() {
   return (
     <div className="about__info grid">
-      {lists.map((item, index) => {
+      {aboutLists.map((item, index) => {
         return (
           <div
             className="about__box"

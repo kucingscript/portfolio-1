@@ -1,4 +1,4 @@
-import { feSkills } from "./data";
+import { feSkills } from "../../constants";
 
 function Frontend() {
   return (

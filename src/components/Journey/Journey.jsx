@@ -1,6 +1,6 @@
 import Title from "../Title/Title";
-import { lists } from "./data";
 import Content from "./Content";
+import { journeyLists } from "../../constants";
 import "./journey.css";
 
 function Journey() {
@@ -10,16 +10,16 @@ function Journey() {
 
       <div className="journey__container container">
         <div className="journey__tabs">
-          {lists.map((list, index) => {
+          {journeyLists.map((item, index) => {
             return (
               <div
                 className="journey__button button--flex"
                 key={index}
                 data-aos="fade-up"
-                data-aos-delay={list.delay}
+                data-aos-delay={item.delay}
               >
-                <i className={list.icon}></i>
-                {list.text}
+                <i className={item.icon}></i>
+                {item.text}
               </div>
             );
           })}

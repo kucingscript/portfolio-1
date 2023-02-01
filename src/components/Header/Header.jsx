@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
+import { headerLists } from "../../constants";
 import "./header.css";
-import { lists } from "./data";
 
 function Header() {
   const [toggle, setToggle] = useState(false);
@@ -15,7 +15,7 @@ function Header() {
 
         <div className={toggle ? "nav__menu show__menu" : "nav__menu"}>
           <ul className="nav__list grid">
-            {lists.map((item, index) => {
+            {headerLists.map((item, index) => {
               return (
                 <Link
                   key={index}

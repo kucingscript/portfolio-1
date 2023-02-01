@@ -1,9 +1,9 @@
-import { links } from "./data";
+import { homeLinks } from "../../constants";
 
 function Social() {
   return (
     <div className="home__social">
-      {links.map((item, index) => {
+      {homeLinks.map((item, index) => {
         return (
           <a
             href={item.href}

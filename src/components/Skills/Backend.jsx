@@ -1,4 +1,4 @@
-import { beSkills } from "./data";
+import { beSkills } from "../../constants";
 
 function Backend() {
   return (

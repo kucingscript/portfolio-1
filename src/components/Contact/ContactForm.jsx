@@ -1,4 +1,4 @@
-import { inputForm } from "./data";
+import { inputForm } from "../../constants";
 import Button from "./Button";
 
 function ContactForm() {

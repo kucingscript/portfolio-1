@@ -1,4 +1,4 @@
-import { socialMedia } from "./data";
+import { socialMedia } from "../../constants";
 
 function ContactSocial() {
   return (
