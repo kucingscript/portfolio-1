@@ -15,7 +15,7 @@ function Description() {
         href={CV}
         className="button button--flex"
         data-aos="fade-up"
-        data-aos-delay="550"
+        data-aos-delay="400"
       >
         Download CV
         <svg

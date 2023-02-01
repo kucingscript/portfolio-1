@@ -1,7 +1,7 @@
-function Left({ title, sub, date, delay }) {
+function Left({ title, sub, date }) {
   return (
     <div className="journey__data">
-      <div data-aos="fade-up" data-aos-delay={delay}>
+      <div data-aos="fade-up" data-aos-delay="400">
         <h3 className="journey__title">{title}</h3>
         <span className="journey__subtitle">{sub}</span>
         <div className="journey__calendar">
