@@ -12,7 +12,12 @@ function WorkItem({ item }) {
       </div>
 
       <h3 className="work__title">{item.title}</h3>
-      <a href={item.link} className="work__button" target={"_blank"}>
+      <a
+        href={item.link}
+        className="work__button"
+        target={"_blank"}
+        rel={"noopener noreferrer"}
+      >
         Demo <i className="bx bxs-chevron-right work__button-icon"></i>
       </a>
     </div>

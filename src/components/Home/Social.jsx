@@ -9,6 +9,7 @@ function Social() {
             href={item.href}
             className="home__social-icon"
             target={"_blank"}
+            rel={"noopener noreferrer"}
             key={index}
             data-aos="fade-up"
             data-aos-delay={item.delay}

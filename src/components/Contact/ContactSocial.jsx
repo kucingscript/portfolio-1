@@ -19,7 +19,12 @@ function ContactSocial() {
               <i className={item.icon}></i>
               <h3 className="contact__card-title">{item.title}</h3>
               <span className="contact__card-data">{item.subtitle}</span>
-              <a href={item.href} target={"_blank"} className="contact__button">
+              <a
+                href={item.href}
+                target={"_blank"}
+                rel={"noopener noreferrer"}
+                className="contact__button"
+              >
                 Write me
                 <i className="bx bxs-chevron-right contact__button-icon"></i>
               </a>
