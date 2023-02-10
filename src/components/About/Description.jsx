@@ -11,7 +11,7 @@ function Description() {
         sure no detail is lost in translation.
       </p>
       <a
-        download=""
+        download="Ar Rasyid Sarifullah__resume"
         href={CV}
         className="button button--flex"
         data-aos="fade-up"

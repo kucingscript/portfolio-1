@@ -1,3 +1,5 @@
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 function WorkItem({ item }) {
   return (
     <div
@@ -6,7 +8,7 @@ function WorkItem({ item }) {
       data-aos="fade-up"
       data-aos-delay="300"
     >
-      <img src={item.image} alt={item.title} className="work__img" />
+      <LazyLoadImage src={item.image} alt={item.title} className="work__img" />
       <div className="img__overlay">
         <div className="overlay__text">{item.text}</div>
       </div>
