@@ -19,7 +19,7 @@ function Content() {
       <Left
         title={"Student Skills Competition"}
         sub={"IT Network System Administration"}
-        date={"Maret, 2021 - East Java"}
+        date={"March, 2021 - East Java"}
       />
 
       <Right
@@ -35,9 +35,9 @@ function Content() {
       />
 
       <Right
-        title={"Certificate of Competence"}
-        sub={"Junior Network Administrator"}
-        date={"March 2021"}
+        title={"Core Initiative (Internship)"}
+        sub={"Frontend Developer"}
+        date={"Feb 2023 - Present"}
       />
     </>
   );
