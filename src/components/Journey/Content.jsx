@@ -37,7 +37,7 @@ function Content() {
       <Right
         title={"Core Initiative (Internship)"}
         sub={"Frontend Developer"}
-        date={"Feb 2023 - Present"}
+        date={"Jan - March 2023"}
       />
     </>
   );
