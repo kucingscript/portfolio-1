@@ -168,7 +168,7 @@ export const projectsData = [
     image: Works4,
     title: "Pokedex",
     category: "vanilla",
-    link: "https://rasyidzkun.github.io/pixel-pokedex/",
+    link: "https://kucingscript.github.io/pixel-pokedex/",
     text: "List of Pokemon Monster",
   },
   {
@@ -200,7 +200,7 @@ export const projectsData = [
     image: Works6,
     title: "Cat Facts",
     category: "vanilla",
-    link: "https://rasyidzkun.github.io/meowfacts/",
+    link: "https://kucingscript.github.io/meowfacts/",
     text: "Get Daily Cat Facts",
   },
 ];
