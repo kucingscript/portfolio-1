@@ -21,7 +21,7 @@ export const homeLinks = [
     delay: 400,
   },
   {
-    href: "https://github.com/rasyidzkun",
+    href: "https://github.com/kucingscript",
     icon: "bx bxl-github",
     delay: 500,
   },
@@ -271,7 +271,7 @@ export const footerLinks = [
     icon: "bx bxl-linkedin",
   },
   {
-    href: "https://github.com/rasyidzkun",
+    href: "https://github.com/kucingscript",
     icon: "bx bxl-github",
   },
 ];
