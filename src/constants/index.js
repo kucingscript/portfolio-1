@@ -62,7 +62,7 @@ export const feSkills = [
     },
   ],
   [
-    { name: "React", level: "Beginner", delay: 450, icon: "bx bxl-react" },
+    { name: "React", level: "Intermediate", delay: 450, icon: "bx bxl-react" },
     {
       name: "Tailwind",
       level: "Intermediate",
@@ -71,7 +71,7 @@ export const feSkills = [
     },
     {
       name: "Bootstrap",
-      level: "Beginner",
+      level: "Intermediate",
       delay: 650,
       icon: "bx bxl-bootstrap",
     },
@@ -87,6 +87,12 @@ export const beSkills = [
       delay: 600,
       icon: "bx bxs-file-js",
     },
+    {
+      name: "Laravel",
+      level: "Beginner",
+      delay: 700,
+      icon: "bx bxl-php",
+    },
   ],
   [
     { name: "MySQL", level: "Intermediate", delay: 550, icon: "bx bxs-data" },
@@ -95,6 +101,12 @@ export const beSkills = [
       level: "Beginner",
       delay: 650,
       icon: "bx bxl-mongodb",
+    },
+    {
+      name: "Firebase",
+      level: "Intermediate",
+      delay: 750,
+      icon: "bx bxl-firebase",
     },
   ],
 ];
@@ -158,18 +170,18 @@ export const projectsData = [
   {
     id: 1,
     image: Works1,
-    title: "Ask Catto",
-    category: "node",
-    link: "https://ask-catto.kucingscript.my.id/",
-    text: "Chat GPT Clone with React",
+    title: "NusantaraFest ",
+    category: "firebase",
+    link: "https://nusantarafest.kucingscript.my.id/",
+    text: "Discover Events Around You",
   },
   {
     id: 2,
     image: Works4,
-    title: "Pokedex",
-    category: "vanilla",
-    link: "https://kucingscript.github.io/pixel-pokedex/",
-    text: "List of Pokemon Monster",
+    title: "Ideation",
+    category: "react",
+    link: "https://kucingscript.github.io/ideation/",
+    text: "My Creative Portfolio",
   },
   {
     id: 3,
@@ -190,26 +202,26 @@ export const projectsData = [
   {
     id: 5,
     image: Works3,
-    title: "Nusantara Historia",
-    category: "react",
-    link: "https://historia.kucingscript.my.id/",
-    text: "History of Nusantara Articles",
+    title: "SIMPOSKO",
+    category: "laravel",
+    link: "https://simposko.kedirikota.go.id/",
+    text: "Digital Waste Bank",
   },
   {
     id: 6,
     image: Works6,
-    title: "Cat Facts",
-    category: "vanilla",
-    link: "https://kucingscript.github.io/meowfacts/",
-    text: "Get Daily Cat Facts",
+    title: "Nusantara Historia",
+    category: "react",
+    link: "https://historia.kucingscript.my.id/",
+    text: "History of Nusantara Articles",
   },
 ];
 
 export const projectsNav = [
   { name: "all" },
   { name: "react" },
-  { name: "node" },
-  { name: "vanilla" },
+  { name: "laravel" },
+  { name: "firebase" },
 ];
 
 // Contact

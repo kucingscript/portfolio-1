@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-      {loading === false ? (
+      {/* {loading === false ? (
         <div>
           <Header />
           <main>
@@ -46,9 +46,23 @@ function App() {
             <Footer />
           </main>
         </div>
+        
       ) : (
         <Loader />
-      )}
+      )} */}
+      <div>
+        <Header />
+        <main>
+          <Home />
+          <About />
+          <Skills />
+          <Services />
+          <Journey />
+          <Work />
+          <Contact />
+          <Footer />
+        </main>
+      </div>
     </>
   );
 }
